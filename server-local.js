@@ -11,7 +11,9 @@ app.get('/', (req, res) => {
   res.render('index');
   res.send('Hello World!')  
 });
-
+app.get('/asdf', (req, res) => {
+  res.send('Hello World!')  
+});
 // Route Files.
 let page1 = require('./routes/page1');
 let page2 = require('./routes/page2');
