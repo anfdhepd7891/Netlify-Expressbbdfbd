@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load View Engine
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'html');
 
 // Local request handlers.
 app.get('/', (req, res) => {
@@ -18,9 +18,6 @@ let page2 = require('./routes/page2');
 let page3 = require('./routes/page3');
 let page4 = require('./routes/page4');
 app.use('/page1', page1);
-app.use('/page2', page2);
-app.use('/page3', page3);
-app.use('/page4', page4);
 
 // Start Server.
 let port = 3005;
