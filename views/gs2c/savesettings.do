@@ -1,0 +1,1 @@
+VoiceState=1;TableColorState=0;LeftHand=false;SoundState=true_true_true_false_false;FastPlay=false;Intro=true;StopMsg=0;TurboSpinMsg=0;BetInfo=0_-1;BatterySaver=false;ShowCCH=true;CustomGameStoredData=
