@@ -13,9 +13,7 @@ let views = path.join(__dirname, '../');
 router.get('/', (req, res) => {
   res.sendFile('index.html', { root: views });
 });
-router.get('/asdf', function(req, res){
-  res.send('fefefe')
-});
+
 // Other routes.
 router.get('/page1', function(req, res){
   res.sendFile('page1.html', { root: views });

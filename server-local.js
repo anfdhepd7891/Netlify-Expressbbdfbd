@@ -14,11 +14,9 @@ app.get('/', (req, res) => {
 app.get('/asdf', (req, res) => {
   res.send('Hello World!')  
 });
-// Route Files.
+
+
 let page1 = require('./routes/page1');
-let page2 = require('./routes/page2');
-let page3 = require('./routes/page3');
-let page4 = require('./routes/page4');
 app.use('/page1', page1);
 
 // Start Server.
